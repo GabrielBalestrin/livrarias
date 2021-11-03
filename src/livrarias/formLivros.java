@@ -108,6 +108,7 @@ public class formLivros extends javax.swing.JFrame {
         tLivros = new javax.swing.JTable();
         b = new javax.swing.JButton();
         cbAutor = new javax.swing.JComboBox<>();
+        jButton4 = new javax.swing.JButton();
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -220,6 +221,8 @@ public class formLivros extends javax.swing.JFrame {
             }
         });
 
+        jButton4.setText("Fechar");
+
         javax.swing.GroupLayout tLIVROSLayout = new javax.swing.GroupLayout(tLIVROS);
         tLIVROS.setLayout(tLIVROSLayout);
         tLIVROSLayout.setHorizontalGroup(
@@ -231,6 +234,8 @@ public class formLivros extends javax.swing.JFrame {
                 .addComponent(jButton2)
                 .addGap(18, 18, 18)
                 .addComponent(jButton3)
+                .addGap(18, 18, 18)
+                .addComponent(jButton4)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(tLIVROSLayout.createSequentialGroup()
                 .addContainerGap()
@@ -298,7 +303,8 @@ public class formLivros extends javax.swing.JFrame {
                 .addGroup(tLIVROSLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
                     .addComponent(jButton2)
-                    .addComponent(jButton3))
+                    .addComponent(jButton3)
+                    .addComponent(jButton4))
                 .addGap(35, 35, 35)
                 .addGroup(tLIVROSLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(tPesquisar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -458,6 +464,7 @@ public class formLivros extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
     private javax.swing.JComboBox<Object> jComboBox2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel4;
